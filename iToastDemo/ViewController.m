@@ -20,6 +20,7 @@
 	// Do any additional setup after loading the view, typically from a nib.
     self.view.backgroundColor = [UIColor orangeColor];
     [self chuxian];
+    //行不行啊！！！
     
 }
 -(void)chuxian{
