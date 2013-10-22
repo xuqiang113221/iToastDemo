@@ -7,7 +7,7 @@
 //
 
 #import "ViewController.h"
-
+#import "Toast+UIView.h"
 @interface ViewController ()
 
 @end
@@ -18,8 +18,14 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
+    self.view.backgroundColor = [UIColor orangeColor];
+    [self chuxian];
+    
 }
-
+-(void)chuxian{
+   [self.view makeToast:@"1 1 1 " duration:1.0 position:@"bottom" title:@"123412351235"];
+    
+}
 - (void)didReceiveMemoryWarning
 {
     [super didReceiveMemoryWarning];
